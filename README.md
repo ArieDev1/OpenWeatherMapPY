@@ -79,6 +79,4 @@ This script requires an OpenWeatherMap API key. You can get a free API key by si
 
 For security, the API key is requested at runtime and is never stored in the code or configuration files.
 
-## License
 
-MIT
