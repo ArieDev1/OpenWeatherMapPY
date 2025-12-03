@@ -110,7 +110,7 @@ def process_data(raw_data):
     
     # Process each forecast point (3-hour intervals)
     for forecast in raw_data['list']:
-        # Extract date from timestamp (format: "2025-09-28 12:00:00")
+        # Extract date from timestamp
         date = forecast['dt_txt'].split(' ')[0]
         
         # Create new day entry if it doesn't exist
